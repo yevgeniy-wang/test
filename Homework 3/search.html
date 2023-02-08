@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+<form style="display: flex; flex-direction: column; width: 400px;">
+    <div>
+        <label for="body">Body type</label>
+        <select id="body">
+            <option>Sedan</option>
+            <option>Coupe</option>
+            <option>Tank</option>
+        </select>
+    </div>
+    <div>
+        <label for="tm">Trade Mark</label>
+        <select id="tm">
+            <option>BMW</option>
+            <option>KIA</option>
+            <option>Cherry</option>
+            <option>Ford</option>
+            <option>Toyota</option>
+        </select>
+    </div>
+    <div>
+        <label for="country">Country</label>
+        <select id="country">
+            <option>Germany</option>
+            <option>South Korea</option>
+            <option>China</option>
+            <option>USA</option>
+            <option>Japan</option>
+        </select>
+    </div>
+    <div>
+        <label for="price-min">Price from</label>
+        <input style="width: 60px" id="price-min" type="text">
+        <label for="price-max">to</label>
+        <input style="width: 60px" id="price-max" type="text">
+    </div>
+    <div>
+        <label for="year-min">Year from</label>
+        <input style="width: 60px" id="year-min" type="text">
+        <label for="year-max">to</label>
+        <input style="width: 60px" id="year-max" type="text">
+    </div>
+    <div>
+        <input id="new" type="checkbox">
+        <label for="new">Factory new</label>
+        <input id="crash" type="checkbox">
+        <label for="crash">Crashed</label>
+        <input id="credit" type="checkbox">
+        <label for="credit">On credit</label>
+        <input id="clear" type="checkbox">
+        <label for="clear">Custom cleared</label>
+    </div>
+    <div>
+        <label for="fuel"> Fuel type</label>
+        <select id="fuel">
+            <option>Gasoline</option>
+            <option>Diesel</option>
+            <option>Electricity</option>
+        </select>
+    </div>
+    <div>
+        <label for="trans">Transmission</label>
+        <select id="trans">
+            <option>Manual</option>
+            <option>Auto</option>
+        </select>
+    </div>
+    <div>
+        <label for="colour">Colour</label>
+        <select id="colour">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+            <option>Yellow</option>
+            <option>Black</option>
+            <option>Silver</option>
+            <option>Grey</option>
+            <option>White</option>
+        </select>
+    </div>
+    <div>
+        <input id="sunroof" type="checkbox">
+        <label for="sunroof">Sunroof</label>
+        <input id="leather" type="checkbox">
+        <label for="leather">Leather</label>
+        <input id="audio" type="checkbox">
+        <label for="audio">Audio system</label>
+        <input id="climate" type="checkbox">
+        <label for="climate">Climate control</label>
+    </div>
+    <input type="submit" value="Search">
+</form>
+</body>
+</html>
